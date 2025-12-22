@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+.material-symbols-rounded {
+  /* Força o preenchimento para 1 (Filled) */
+  font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
 /*
     Paleta de cores
 */
@@ -57,4 +62,13 @@ section#login div#imagem {
 section#login > div#formulario{
     display: block;
     padding: 10px;
+}
+
+div#formulario > h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div#formulario > p {
+    font-size: 0.8em;
 }
